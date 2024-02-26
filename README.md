@@ -40,7 +40,7 @@ In a regression tree, a regression model is fit to the target variable using eac
 
 At those points, the error between the predicted values and actual values is squared to get “A Sum of Squared Errors”(SSE). The point that has the lowest SSE is chosen as the split point. This process is continued recursively.
 
-# Some twerminologies in the Decision Tree:
+# Some terminologies in the Decision Tree:
 
 Root node: The topmost node in a tree.
 
