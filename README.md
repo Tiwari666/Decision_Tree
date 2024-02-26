@@ -34,6 +34,17 @@ Parent and Child Node: A node, which is divided into sub-nodes is called the par
 Decision Node: When a sub-node splits into further sub-nodes, then it is called a decision node.
 
 
+ # Gini index
+The Gini index is a measure of impurity in a set of data. It is calculated by summing the squared probabilities of each class. A lower Gini index indicates a more pure set of data.
+ # Information gain
+Information gain is a measure of how much information is gained by splitting a set of data on a particular feature. It is calculated by comparing the entropy of the original set of data to the entropy of the two child sets. A higher information gain indicates that the feature is more effective at splitting the data.
+# Impurity?
+Impurity is a measure of how mixed up the classes are in a set of data. A more impure set of data will have a higher Gini index.
+
+# When to use Gini index and information gain?
+Gini index and information gain can be used interchangeably, but there are some cases where one may be preferred over the other. Gini index is typically preferred when the classes are balanced, while information gain is typically preferred when the classes are imbalanced.
+
+
 ![image](https://github.com/Tiwari666/Decision_Tree/assets/153152895/125efb3f-03c3-4c61-9427-7562169f870a)
 
 
@@ -43,6 +54,9 @@ Decision Node: When a sub-node splits into further sub-nodes, then it is called 
 1.Choose the initial dataset with the feature and target attributes defined.
 
 2.Calculate the Information gain and Entropy for each attribute.
+
+![image](https://github.com/Tiwari666/Decision_Tree/assets/153152895/7db12b09-2fc0-42bf-a12a-361f811f95a3)
+
 
 3.Pick the attribute with the highest information gain, and make it the decision root node.
 
@@ -79,5 +93,8 @@ Link 1: https://gustavwillig.medium.com/decision-tree-vs-logistic-regression-1a4
 Link 2: https://why-change.com/2021/11/13/how-to-create-decision-trees-for-business-rules-analysis/
 
 Link 3:https://medium.com/analytics-vidhya/decision-trees-explained-in-simple-steps-39ee1a6b00a2
+
+Link 4: https://www.linkedin.com/pulse/gini-index-information-gain-machine-learning-dhiraj-patra/
+
 
 
