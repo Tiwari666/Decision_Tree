@@ -1,4 +1,4 @@
-# Why decision tree over the linear regression?
+# Why decision tree over the linear regression and logistic regression?
 a) Handling Complex and Non-Linear Relationship: 
 linear models are good when the data itself has a linear relationship.
 
@@ -38,6 +38,26 @@ Decision Node: When a sub-node splits into further sub-nodes, then it is called 
 
 
 
+# Steps to build the decision tree:
+
+1.Choose the initial dataset with the feature and target attributes defined.
+
+2.Calculate the Information gain and Entropy for each attribute.
+
+3.Pick the attribute with the highest information gain, and make it the decision root node.
+
+4.Calculate the information gain for the remaining attributes.
+
+5.Create recurring child nodes by starting splitting at the decision node (i.e for various values of the decision node, create separate child nodes).
+
+Repeat this process until all the attributes are covered.
+
+7.Prune the Tree to prevent overfitting.
+
+
+![image](https://github.com/Tiwari666/Decision_Tree/assets/153152895/7ffa8e45-2b61-4bf4-95d2-3798734aa6b4)
+
+
 
 
 
@@ -57,4 +77,7 @@ Sources:
 Link 1: https://gustavwillig.medium.com/decision-tree-vs-logistic-regression-1a40c58307d0
 
 Link 2: https://why-change.com/2021/11/13/how-to-create-decision-trees-for-business-rules-analysis/
+
+Link 3:https://medium.com/analytics-vidhya/decision-trees-explained-in-simple-steps-39ee1a6b00a2
+
 
