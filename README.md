@@ -110,7 +110,9 @@ Overfitting is a common problem in machine learning, where a model learns the no
 
 # How to prevent overfitting?
 
-There are several techniques that can help prevent overfitting in decision trees, such as pruning, regularization, and ensemble methods. Pruning is the process of removing or collapsing branches or nodes that do not contribute much to the accuracy or complexity of the tree. Pruning can be done either before or after the tree is fully grown, using different criteria such as information gain, error rate, or confidence interval. Regularization is the process of adding some constraints or penalties to the tree growth, such as limiting the depth, the number of nodes, or the minimum samples required for a split. Regularization can help reduce the complexity and variance of the tree, and avoid overfitting. Ensemble methods are the process of combining multiple decision trees into a single model, such as random forest or gradient boosting. Ensemble methods can help improve the accuracy and robustness of the model, by reducing the bias and variance of individual trees, and by averaging out the errors and noise.
+There exists various techniques to prevent overfitting in decision trees, including pruning, regularization, and ensemble methods. Pruning involves removing  or merging branches or nodes that contribute minimally to the tree's accuracy or complexity, and it can be implemented before or after the tree reaches full growth, using criteria like information gain, error rate, or confidence interval. Regularization entails imposing constraints or penalties on tree growth, such as limiting depth, node count, or minimum samples for a split, to decrease complexity and variance while preventing overfitting. Ensemble methods combine multiple decision trees into a unified model, as seen in random forest or gradient boosting, which enhance accuracy and robustness by reducing bias and variance in individual trees and averaging out errors and noise.
+
+
 
 #How to apply pruning?
 
@@ -119,6 +121,15 @@ Pruning is one of the most effective ways to avoid overfitting in decision trees
 # How to apply regularization?
 
 Regularization is another way to avoid overfitting in decision trees, as it can limit the growth and complexity of the tree, and prevent it from becoming too specific or noisy. Regularization can be applied by imposing some constraints or penalties on the tree growth, such as the depth, the number of nodes, the number of leaves, the minimum samples required for a split, or the minimum samples required for a leaf. These parameters can be set manually or automatically, depending on the data and the objective. For example, you can set the maximum depth of the tree to avoid creating too many branches or levels, or you can set the minimum samples required for a split to avoid creating too many splits or nodes. Regularization can help reduce the variance and improve the simplicity of the tree, and avoid overfitting.
+
+# How to apply ensemble methods?
+Ensemble methods present an alternative approach to mitigate overfitting in decision trees via combining multiple trees into a singular model, thereby enhancing the model's accuracy and robustness. These methods can be implemented using various algorithms or techniques, including bagging, boosting, or stacking. 
+
+Bagging, or bootstrap aggregating, involves generating multiple trees from diverse subsets of the training data and subsequently averaging or voting their predictions, thereby reducing variance and noise while bolstering model diversity and stability. 
+
+Boosting, also referred to as gradient boosting, entails the sequential creation of multiple trees, with each subsequent tree aiming to rectify errors made by preceding trees and assigning weights to their predictions, thereby mitigating bias and error in individual trees and improving model accuracy and performance. 
+
+Stacking involves the creation of multiple trees from distinct subsets or features of the training data, followed by the utilization of another model, such as logistic regression or a neural network, to combine their predictions, thus enhancing model flexibility, complexity, accuracy, and performance.
 
 
 
