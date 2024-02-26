@@ -142,6 +142,8 @@ Link 4: https://www.linkedin.com/pulse/gini-index-information-gain-machine-learn
 
 Link5: https://www.numpyninja.com/post/is-decision-tree-a-classification-or-regression-model
 
+Link 5: https://www.linkedin.com/advice/0/what-best-ways-avoid-overfitting-decision-trees-skills-data-mining
+
 
 
 
