@@ -42,15 +42,19 @@ At those points, the error between the predicted values and actual values is squ
 
 # Some terminologies in the Decision Tree:
 
-Root node: The topmost node in a tree.
+Root node: The topmost node in a tree. Initial node of the decision tree: where the entire population or dataset starts dividing based on various features or conditions.
 
-Leaf/ Terminal Node: Nodes do not split is called Leaf or Terminal node.
+Leaf/ Terminal Node:  Nodes where further splitting is not possible, often indicating the final classification or outcome. Leaf nodes are also referred to as terminal nodes.
 
-Splitting: It is a process of dividing a node into two or more sub-nodes.
+Splitting:  The process of dividing a node into multiple sub-nodes.
 
 Parent and Child Node: A node, which is divided into sub-nodes is called the parent node of sub-nodes whereas sub-nodes are the child of the parent node.
 
-Decision Node: When a sub-node splits into further sub-nodes, then it is called a decision node.
+Decision Node: Nodes resulting from the splitting of root nodes are known as decision nodes (also knowm as the internal node). These nodes represent intermediate decisions or conditions within the tree.
+
+Internal node: Any nodes that lie in between the root node ( beginning node with the entire dataset) and the leaf nodes ( final decision nodes) are called decision nodes (also knowm as the internal node).
+
+Branch: A subsection of the decision tree consisting of multiple nodes.
 
 
  # Gini index
