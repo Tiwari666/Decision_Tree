@@ -140,6 +140,18 @@ Stacking involves the creation of multiple trees from distinct subsets or featur
 
 
 
+# Pruning to Reduce the Decision Tree: 
+Decision trees are a popular machine learning tool that can be used for both classification and regression tasks. They areintuitive and easy to interpret, making them valuable in many domains. However, decision trees tend to grow excessively large
+when given a large amount of training data, which can lead to overfitting.
+
+Overfitting occurs when a model learns the training data too well, including all the noise and irrelevant patterns, and fails to generalize well to unseen data. This is where pruning comes into play.
+
+Pruning is a technique used in decision tree algorithms to reduce the size of the tree by removing unnecessary branches. Thegoal of pruning is to simplify the decision tree while maintaining or even improving its predictive accuracy on unseen data.
+Pruning helps to simplify the decision tree by removing branches that do not contribute significantly to its predictive accuracy.
+
+By doing so, it reduces the risk of overfitting and improves the generalization ability of the decision tree.
+
+
 
 
 
