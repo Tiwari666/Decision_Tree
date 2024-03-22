@@ -137,6 +137,23 @@ Stacking involves the creation of multiple trees from distinct subsets or featur
 
 
 
+# Various methods for avoiding overfitting of models on training data
+
+Cross-validation sampling,
+
+Reducing number of features
+
+Pruning
+
+Regularization: L1, L2, 
+
+data augmentation,
+
+early stopping 
+
+dropout
+
+
 
 
 
